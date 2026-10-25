@@ -1,0 +1,148 @@
+{
+  "allowed_sticker_trial": {
+    "verdict": "NOT GUILTY",
+    "decision": "ALLOW LOCAL DRAFT",
+    "prosecution": [],
+    "defense": [
+      "Original locally produced draft is possible with free local software",
+      "No spending, outreach, uploads, or commerce actions will be executed"
+    ],
+    "witnesses": {
+      "Financial expert": "Planned up-front expenditure: $0.00; permitted: $0.00. Sales unproven.",
+      "Rights expert": "No third-party content asserted by proposer",
+      "Evidence expert": "0 external leads. Public interest is not proof of buyers.",
+      "Operations expert": "Action proposed: generate_local_draft; outside-platform activity not automated"
+    },
+    "jury": [
+      {
+        "juror": "Economics",
+        "vote": "NOT GUILTY"
+      },
+      {
+        "juror": "Originality & rights",
+        "vote": "NOT GUILTY"
+      },
+      {
+        "juror": "Consumer trust",
+        "vote": "NOT GUILTY"
+      },
+      {
+        "juror": "Execution safety",
+        "vote": "NOT GUILTY"
+      },
+      {
+        "juror": "Fulfillment",
+        "vote": "NOT GUILTY"
+      }
+    ],
+    "judge": [
+      "Allowed: prepare LOCAL DRAFT ONLY. Publication, payment, and contact require human action."
+    ],
+    "evidence": [
+      {
+        "source": "proposal",
+        "detail": "sticker_studio: Original artwork",
+        "type": "claim"
+      }
+    ],
+    "human_release_required": true
+  },
+  "rejected_unlicensed_logo": {
+    "verdict": "GUILTY",
+    "decision": "REJECT",
+    "prosecution": [
+      "HARD STOP: third-party intellectual property rights not proven"
+    ],
+    "defense": [
+      "A local-only redesign may remove blocked actions after a new trial"
+    ],
+    "witnesses": {
+      "Financial expert": "Planned up-front expenditure: $0.00; permitted: $0.00. Sales unproven.",
+      "Rights expert": "Third-party material requires documented rights",
+      "Evidence expert": "0 external leads. Public interest is not proof of buyers.",
+      "Operations expert": "Action proposed: generate_local_draft; outside-platform activity not automated"
+    },
+    "jury": [
+      {
+        "juror": "Economics",
+        "vote": "NOT GUILTY"
+      },
+      {
+        "juror": "Originality & rights",
+        "vote": "GUILTY"
+      },
+      {
+        "juror": "Consumer trust",
+        "vote": "NOT GUILTY"
+      },
+      {
+        "juror": "Execution safety",
+        "vote": "NOT GUILTY"
+      },
+      {
+        "juror": "Fulfillment",
+        "vote": "NOT GUILTY"
+      }
+    ],
+    "judge": [
+      "HARD STOP: third-party intellectual property rights not proven"
+    ],
+    "evidence": [
+      {
+        "source": "proposal",
+        "detail": "sticker_studio: Unauthorized trademark",
+        "type": "claim"
+      }
+    ],
+    "human_release_required": true
+  },
+  "rejected_auto_publish": {
+    "verdict": "GUILTY",
+    "decision": "REJECT",
+    "prosecution": [
+      "HARD STOP: action is outside the allowed local/research actions"
+    ],
+    "defense": [
+      "A local-only redesign may remove blocked actions after a new trial"
+    ],
+    "witnesses": {
+      "Financial expert": "Planned up-front expenditure: $0.00; permitted: $0.00. Sales unproven.",
+      "Rights expert": "No third-party content asserted by proposer",
+      "Evidence expert": "0 external leads. Public interest is not proof of buyers.",
+      "Operations expert": "Action proposed: publish_to_marketplace; outside-platform activity not automated"
+    },
+    "jury": [
+      {
+        "juror": "Economics",
+        "vote": "NOT GUILTY"
+      },
+      {
+        "juror": "Originality & rights",
+        "vote": "NOT GUILTY"
+      },
+      {
+        "juror": "Consumer trust",
+        "vote": "NOT GUILTY"
+      },
+      {
+        "juror": "Execution safety",
+        "vote": "GUILTY"
+      },
+      {
+        "juror": "Fulfillment",
+        "vote": "NOT GUILTY"
+      }
+    ],
+    "judge": [
+      "HARD STOP: action is outside the allowed local/research actions"
+    ],
+    "evidence": [
+      {
+        "source": "proposal",
+        "detail": "sticker_studio: Publish automatically",
+        "type": "claim"
+      }
+    ],
+    "human_release_required": true
+  }
+}
